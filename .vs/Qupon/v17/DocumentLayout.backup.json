@@ -96,7 +96,7 @@
               "RelativeDocumentMoniker": "src\\screens\\CategoriesScreen.js",
               "ToolTip": "C:\\RajaSekhar\\Projects\\Qupon\\Qupon\\src\\screens\\CategoriesScreen.js",
               "RelativeToolTip": "src\\screens\\CategoriesScreen.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-07-10T21:49:39.08Z",
               "EditorCaption": ""
@@ -111,8 +111,7 @@
               "RelativeToolTip": "src\\screens\\AdminPanel\\UsersListScreen.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-10T21:14:08.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T21:14:08.472Z"
             },
             {
               "$type": "Document",
@@ -124,8 +123,7 @@
               "RelativeToolTip": "src\\screens\\AdminPanel\\CouponsListScreen.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-10T21:13:48.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T21:13:48.555Z"
             },
             {
               "$type": "Document",
@@ -137,8 +135,7 @@
               "RelativeToolTip": "src\\screens\\PaymentScreen.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-10T20:21:52.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T20:21:52.292Z"
             },
             {
               "$type": "Document",
@@ -150,8 +147,7 @@
               "RelativeToolTip": "src\\navigation\\AppNavigator.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-10T18:50:43.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T18:50:43.325Z"
             },
             {
               "$type": "Document",
@@ -163,8 +159,7 @@
               "RelativeToolTip": "src\\screens\\BrowseDealsScreen.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAJcAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-10T18:50:15.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T18:50:15.921Z"
             },
             {
               "$type": "Document",
@@ -176,8 +171,7 @@
               "RelativeToolTip": "src\\screens\\HomeScreen.js",
               "ViewState": "AgIAAD4AAAAAAAAAAAAAwFQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-10T18:49:55.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T18:49:55.452Z"
             },
             {
               "$type": "Document",
@@ -189,8 +183,7 @@
               "RelativeToolTip": "src\\screens\\ProfileScreen.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-10T18:50:23.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T18:50:23.039Z"
             },
             {
               "$type": "Document",
@@ -202,8 +195,7 @@
               "RelativeToolTip": "src\\screens\\LoginScreen.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-09T22:14:36.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T22:14:36.86Z"
             },
             {
               "$type": "Document",
@@ -215,8 +207,7 @@
               "RelativeToolTip": "src\\screens\\SplashScreen.js",
               "ViewState": "AgIAAAIAAAAAAAAAAAAcwBEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-10T18:49:42.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T18:49:42.617Z"
             },
             {
               "$type": "Document",
@@ -228,8 +219,7 @@
               "RelativeToolTip": "src\\components\\QIcon.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-10T21:19:05.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T21:19:05.21Z"
             },
             {
               "$type": "Document",
@@ -241,8 +231,7 @@
               "RelativeToolTip": "src\\screens\\PurchaseSuccessScreen.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-10T20:22:34.403Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T20:22:34.403Z"
             },
             {
               "$type": "Document",
@@ -254,8 +243,7 @@
               "RelativeToolTip": "src\\screens\\OtpScreen.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-09T22:14:58.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T22:14:58.295Z"
             },
             {
               "$type": "Document",
@@ -267,8 +255,7 @@
               "RelativeToolTip": "src\\screens\\UploadCouponScreen.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-10T18:50:07.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T18:50:07.925Z"
             },
             {
               "$type": "Document",
@@ -280,8 +267,7 @@
               "RelativeToolTip": "src\\screens\\ProfileCompletionScreen.js",
               "ViewState": "AgIAAGUAAAAAAAAAAAAiwIwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-10T19:19:00.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T19:19:00.983Z"
             },
             {
               "$type": "Document",
@@ -293,8 +279,7 @@
               "RelativeToolTip": "babel.config.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-10T19:11:41.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T19:11:41.565Z"
             },
             {
               "$type": "Document",
@@ -306,8 +291,7 @@
               "RelativeToolTip": "App.tsx",
               "ViewState": "AgIAAA0AAAAAAAAAAAAcwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-07-10T10:58:37.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T10:58:37.06Z"
             },
             {
               "$type": "Document",
@@ -319,8 +303,7 @@
               "RelativeToolTip": "index.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-09T22:15:25.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T22:15:25.307Z"
             },
             {
               "$type": "Document",
@@ -332,8 +315,7 @@
               "RelativeToolTip": "src\\styles.js",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-09T22:13:56.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T22:13:56.643Z"
             }
           ]
         }
