@@ -35,10 +35,10 @@ export default function ProfileCompletionScreen({ navigation }) {
     }
 
     const age = calculateAge(dob);
-    if (age < 13) {
-      Alert.alert('Error', 'You must be at least 13 years old to register.');
-      return;
-    }
+    // if (age < 13) {
+    //   Alert.alert('Error', 'You must be at least 13 years old to register.');
+    //   return;
+    // }
 
     // ✅ You can send this data to backend here
 

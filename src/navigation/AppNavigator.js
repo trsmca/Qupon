@@ -17,6 +17,7 @@ import UsersListScreen from '../screens/AdminPanel/UsersListScreen';
 import CouponsListScreen from '../screens/AdminPanel/CouponsListScreen';
 import CategoriesScreen from '../screens/CategoriesScreen';
 import TermsScreen from '../screens/TermsScreen';
+import CategoryCouponsScreen from '../screens/CategoryCouponsScreen';
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
 
@@ -27,19 +28,24 @@ function HomeDrawer({ navigation }) {
     <Drawer.Navigator
       screenOptions={{
         headerShown: true,
-        headerStyle: { backgroundColor: '#B71C1C' },
+        headerStyle: { backgroundColor: '#000' },
         headerTintColor: '#fff',
         headerTitleAlign: 'center',
         headerTitle: () => (
-          <Text
-            style={{
-              fontSize: 28,
-              fontWeight: 'bold',
-              color: '#fff',
-            }}
+          <View
+            style={{ backgroundColor: '#000', borderRadius: 24, padding: 4 }}
           >
-            Q
-          </Text>
+            <Image
+              source={require('../assets/logo.jpg')}
+              style={{
+                width: 40,
+                height: 40,
+                resizeMode: 'contain',
+                backgroundColor: '#000',
+                borderRadius: 20,
+              }}
+            />
+          </View>
         ),
         headerRight: () => (
           <View style={{ marginRight: 12 }}>
@@ -97,6 +103,7 @@ export default function AppNavigator() {
   return (
     <Stack.Navigator screenOptions={{ headerShown: false }}>
       <Stack.Screen name="Splash" component={SplashScreen} />
+      {/* <Stack.Screen name="Home" component={HomeDrawer} /> */}
       <Stack.Screen name="Login" component={LoginScreen} />
       <Stack.Screen name="Otp" component={OtpVerificationScreen} />
       <Stack.Screen
@@ -107,6 +114,11 @@ export default function AppNavigator() {
       <Stack.Screen name="Payment" component={PaymentScreen} />
       <Stack.Screen name="PurchaseSuccess" component={PurchaseSuccessScreen} />
       <Stack.Screen name="Terms" component={TermsScreen} />
+      <Stack.Screen
+        name="CategoryCoupons"
+        component={CategoryCouponsScreen}
+        options={{ headerShown: true, title: '' }}
+      />
     </Stack.Navigator>
   );
 }

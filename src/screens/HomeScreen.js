@@ -8,8 +8,6 @@ import {
   ScrollView,
   Linking,
 } from 'react-native';
-import Icon from 'react-native-vector-icons/Feather';
-import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 
 export default function HomeScreen({ navigation }) {
   return (
@@ -54,7 +52,10 @@ export default function HomeScreen({ navigation }) {
 
       <View style={styles.stepsContainer}>
         <View style={styles.step}>
-          <Icon name="upload" size={36} style={styles.stepIcon} />
+          <Image
+            source={require('../assets/upload.png')}
+            style={styles.stepImg}
+          />
           <Text style={styles.stepTitle}>Upload</Text>
           <Text style={styles.stepDesc}>
             Submit your unused coupon to our platform.
@@ -62,19 +63,21 @@ export default function HomeScreen({ navigation }) {
         </View>
 
         <View style={styles.step}>
-          <MaterialIcon
-            name="currency-rupee"
-            size={36}
-            style={styles.stepIcon}
+          <Image
+            source={require('../assets/money.png')}
+            style={styles.stepImg}
           />
           <Text style={styles.stepTitle}>Get Paid</Text>
           <Text style={styles.stepDesc}>
-            Sellers receive 20 %{'\n'}of the coupon value after it is sold.
+            Sellers receive 20% of the coupon value after it is sold.
           </Text>
         </View>
 
         <View style={styles.step}>
-          <Icon name="tag" size={36} style={styles.stepIcon} />
+          <Image
+            source={require('../assets/score.png')}
+            style={styles.stepImg}
+          />
           <Text style={styles.stepTitle}>Score a Deal</Text>
           <Text style={styles.stepDesc}>
             Buyers get 75% OFF the coupon’s value and save big.
@@ -83,10 +86,15 @@ export default function HomeScreen({ navigation }) {
       </View>
 
       {/* Contact Info */}
+
       <View style={styles.contactRow}>
         <View style={styles.contactLeft}>
           <Text style={styles.contactTitle}>Contact:</Text>
-          <Text style={styles.email}>info@qupon.com</Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL('mailto:Businessqupon@gmail.com')}
+          >
+            <Text style={styles.email}>Businessqupon@gmail.com</Text>
+          </TouchableOpacity>
         </View>
         <View style={styles.contactRight}>
           <TouchableOpacity
@@ -97,7 +105,10 @@ export default function HomeScreen({ navigation }) {
             }
             accessibilityLabel="Facebook"
           >
-            <Icon name="facebook" size={24} style={styles.socialIcon} />
+            <Image
+              source={require('../assets/facebook.png')}
+              style={styles.socialIconImg}
+            />
           </TouchableOpacity>
           <TouchableOpacity
             onPress={() =>
@@ -107,7 +118,10 @@ export default function HomeScreen({ navigation }) {
             }
             accessibilityLabel="X"
           >
-            <Icon name="twitter" size={24} style={styles.socialIcon} />
+            <Image
+              source={require('../assets/X.png')}
+              style={styles.socialIconImg}
+            />
           </TouchableOpacity>
           <TouchableOpacity
             onPress={() =>
@@ -117,7 +131,10 @@ export default function HomeScreen({ navigation }) {
             }
             accessibilityLabel="Instagram"
           >
-            <Icon name="instagram" size={24} style={styles.socialIcon} />
+            <Image
+              source={require('../assets/Insta.png')}
+              style={styles.socialIconImg}
+            />
           </TouchableOpacity>
         </View>
       </View>
@@ -147,7 +164,7 @@ const styles = StyleSheet.create({
     width: 54,
     height: 54,
     borderRadius: 27,
-    marginRight: 8,
+    marginRight: 4,
     resizeMode: 'contain',
   },
   logoText: {
@@ -219,6 +236,12 @@ const styles = StyleSheet.create({
     marginBottom: 8,
     color: '#111',
   },
+  stepImg: {
+    width: 36,
+    height: 36,
+    marginBottom: 8,
+    resizeMode: 'contain',
+  },
   stepTitle: {
     fontWeight: 'bold',
     fontSize: 16,
@@ -268,7 +291,13 @@ const styles = StyleSheet.create({
   },
   socialIcon: {
     marginLeft: 0,
-    marginRight: 18,
+    marginRight: 10,
     color: '#111',
+  },
+  socialIconImg: {
+    width: 24,
+    height: 24,
+    marginRight: 0,
+    resizeMode: 'contain',
   },
 });
