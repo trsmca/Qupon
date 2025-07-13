@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1072064183472",
+    "project_id": "qupon-dce11",
+    "storage_bucket": "qupon-dce11.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072064183472:android:f934392b44f759289b8f75",
+        "android_client_info": {
+          "package_name": "com.Qupon.QuponApp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiKR3hmJipmWUASgraZFtv-qs2gkltFMA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072064183472:android:4587c988447cbf279b8f75",
+        "android_client_info": {
+          "package_name": "com.qupon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiKR3hmJipmWUASgraZFtv-qs2gkltFMA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
