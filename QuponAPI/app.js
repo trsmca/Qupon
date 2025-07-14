@@ -1,20 +1,20 @@
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
+const express = require('express');
+const cors = require('cors');
+const dotenv = require('dotenv');
+const fileUpload = require('express-fileupload');
+dotenv.config();
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+const app = express();
 
-var app = express();
-
-app.use(logger('dev'));
+app.use(cors());
 app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(fileUpload());
+app.use(express.static('public'));
 
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
+// Routes
+app.use('/api/auth', require('./routes/auth.routes'));
+app.use('/api/user', require('./routes/user.routes'));
+app.use('/api/coupons', require('./routes/coupon.routes'));
+app.use('/api/admin', require('./routes/admin.routes'));
 
 module.exports = app;
